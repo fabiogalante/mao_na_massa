@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mao_na_massa/images/images_page.dart';
 
 import 'home_page.dart';
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      // home: const HomePage(),
+      home: const ImagesPage(),
     );
   }
 }
